@@ -9,7 +9,9 @@ btn.addEventListener('click', () => {
   // при нажатии на первую кнопку
   // работайте с clonedBtn
   // ваш код начинается здесь
-  
+    clonedBtn.style.color="#ffffff"
+    clonedBtn.style.backgroundColor="#a78b71"
+document.body.appendChild(clonedBtn)
 })
 
-// здесь можете создать EventListener для второй кнопки
+// здесь можете создать EventListener для вто рой кнопки
