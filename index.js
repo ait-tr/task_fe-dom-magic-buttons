@@ -10,10 +10,13 @@ btn.addEventListener('click', () => {
   // работайте с clonedBtn
   // ваш код начинается здесь
   document.body.appendChild(clonedBtn);
-  clonedBtn.textContent="Я изменю тебя";
-  clonedBtn.style.backgroundColor="#a78b71";
-  clonedBtn.style.color="white";
-  
+  clonedBtn.textContent = "Я изменю тебя";
+  clonedBtn.style.backgroundColor = "#a78b71";
+  clonedBtn.style.color = "white";
 })
-
 // здесь можете создать EventListener для второй кнопки
+clonedBtn.addEventListener('click', () => {
+  // изменяем текст параграфа с id 'text'
+  const text = document.getElementById('text');
+  text.textContent = "Ты изменил меня!";
+})
