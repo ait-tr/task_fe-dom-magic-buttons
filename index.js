@@ -3,8 +3,8 @@ function addMagicButton() {
   magicButton.id = "magic-btn-2";
   magicButton.innerText = "Я изменю тебя";
 
-  magicButton.style.backgroundColor = "#a78b71";
-  magicButton.style.color = "white";
+  magicButton.style.backgroundColor = "#9c4a1a";
+  magicButton.style.color = "black";
 
 
   var container = document.getElementById("text");
