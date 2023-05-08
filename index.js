@@ -4,7 +4,7 @@ const btn = document.getElementById("magic-btn");
 const clonedBtn = btn.cloneNode(true);
 // задали id
 clonedBtn.id = "magic-btn-2";
-
+btn.style.cursor = "pointer";
 btn.addEventListener('click', () => {
   // при нажатии на первую кнопку
   // работайте с clonedBtn
@@ -18,7 +18,7 @@ btn.addEventListener('click', () => {
   clonedBtn.style.padding = "15px";
   clonedBtn.style.margin = "20px";
   clonedBtn.style.fontSize = "20px";
-  
+  clonedBtn.style.cursor = "pointer";
 })
 // здесь можете создать EventListener для второй кнопки
 clonedBtn.addEventListener('click', () => {
