@@ -1,3 +1,7 @@
+body {
+  background-color: darkgray;
+}
+
 #magic-btn {
   background-color: #f7c815;
   color: white;
