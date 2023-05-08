@@ -26,4 +26,6 @@ clonedBtn.addEventListener('click', () => {
   const text = document.getElementById('text');
   text.textContent = "Ты изменил меня!";
   text.style.color = "#f7c815";
+  btn.style.backgroundColor = "#a78b71";
+  clonedBtn.style.backgroundColor = "#f7c815";
 })
