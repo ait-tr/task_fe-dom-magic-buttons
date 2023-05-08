@@ -1,14 +1,19 @@
-function addMagicButton() {
-  var magicButton = document.createElement("button");
-  magicButton.id = "magic-btn-2";
-  magicButton.innerText = "Я изменю тебя";
+const btn = document.querySelector('#magic-btn');
 
-  magicButton.style.backgroundColor = "#9c4a1a";
-  magicButton.style.color = "black";
+btn.addEventListener('click', () => {
+  const newBtn = document.createElement('button');
+  newBtn.id = 'magic-btn-2';
+  newBtn.innerText = 'Я изменю тебя';
 
+  newBtn.style.backgroundColor = '#a78b71';
+  newBtn.style.color = 'white';
 
-  var container = document.getElementById("text");
-  container.appendChild(magicButton);
-}
-var originalButton = document.getElementById("magic-btn");
-originalButton.addEventListener("click", addMagicButton);
+  newBtn.classList.add('second-btn');
+
+  document.body.appendChild(newBtn);
+
+  newBtn.addEventListener('click', () => {
+    btn.style.backgroundColor = '#9c4a1a';
+    btn.style.color = 'black';
+  });
+});
