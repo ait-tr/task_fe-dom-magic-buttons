@@ -4,16 +4,17 @@ const btn = document.getElementById("magic-btn");
 const clonedBtn = btn.cloneNode(true);
 // задали id
 clonedBtn.id = "magic-btn-2";
-clonedBtn.innerText="Я изменю тебя";
-clonedBtn.style.backgroundColor="#a78b71";
-clonedBtn.style.color="white";
-clonedBtn.style.fontSize="30px";
+
 
 
 btn.addEventListener('click', () => {
   // при нажатии на первую кнопку
   // работайте с clonedBtn
   // ваш код начинается здесь
+  clonedBtn.innerText="Я изменю тебя";
+  clonedBtn.style.backgroundColor="#a78b71";
+  clonedBtn.style.color="white";
+  clonedBtn.style.fontSize="30px";
   document.body.appendChild(clonedBtn);
  });
 
