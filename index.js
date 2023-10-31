@@ -9,6 +9,8 @@ btn.addEventListener('click', () => {
   // при нажатии на первую кнопку
   // работайте с clonedBtn
   // ваш код начинается здесь
+  btn.textContent="Я изменю тебя";
+  btn.style.backgroundColor = "#9c4a1a";
   
 })
 
