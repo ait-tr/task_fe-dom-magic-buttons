@@ -15,10 +15,10 @@ let toggle = true;
 btn.addEventListener('click', () => {
   if(toggle) {
     document.body.appendChild(clonedBtn);
-    
+
     clonedBtn.addEventListener('click', () => {
-      clonedBtn.style.backgroundColor = "#9c4a1a";
-      clonedBtn.style.color = "black";
+      btn.style.backgroundColor = "#9c4a1a";
+      btn.clonedBtn.style.color = "black";
     });
   } else {
     document.body.removeChild(clonedBtn);   
