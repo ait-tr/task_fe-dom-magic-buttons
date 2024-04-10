@@ -14,6 +14,7 @@ btn.addEventListener('click', () => {
 clonedBtn.textContent = "Я изменю тебя";
 clonedBtn.style.backgroundColor = "#a78b71";
 clonedBtn.style.color = "white";
+clonedBtn.style.border = "2px solid black";
 
 clonedBtn.addEventListener("click", ()=>{
   btn.style.backgroundColor = "#9c4a1a";
