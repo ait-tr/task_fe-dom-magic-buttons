@@ -11,7 +11,7 @@ btn.addEventListener('click', () => {
  clonedBtn.style.backgroundColor = "#a78b71";
   clonedBtn.style.color= "white";
   clonedBtn.classList.add("second-btn");
-  document.body.append(clonedBtn)
+  document.body.appendChild(clonedBtn)
 })
 
 // здесь можете создать EventListener для второй кнопки
